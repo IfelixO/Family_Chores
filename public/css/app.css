@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: #cde7b2;
+    width: 100vw;
+    height: 100vh;
+}
+
+.index-header {
+    color: #2F4858;
+    margin: 50px 5% 2% 5%;
+}
+
+.index-subtitle {
+    text-align: right;
+    font-size: 1rem;
+}
+
+.index-title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.index-table {
+    margin: 0 10vw 0 10vw; 
+    background-color: #d7eac4;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.index-hcell {
+    font-size: 1.2rem;
+}
+
+.index-hcell, .index-bcell {
+    border: solid 1px black;
+}
+
+.symbols {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.symbol {
+    height: 10px;
+    cursor: pointer;
+}
+
+.delete {
+    background: none;
+    border: none;
+}
+
+.index-button {
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    background-color: #2F4858;
+    padding: 5px 10px;
+    border-radius: 10%;
+    color: white;
+}
+
+.index-button:hover {
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+
+
+
+
+
+
+
+.create, .edit {
+    margin: 50px 10%;
+    text-align: center;
+    color: #2F4858;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin: 10px 0px 5px 0px;
+}
+
+.input {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    color: black;
+}
+
+.button {
+    margin-top: 10px;
+    background-color: #2F4858;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.button:hover{
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+
+
+
